@@ -1,6 +1,7 @@
 .container-principal {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
@@ -41,6 +42,8 @@
 
         .resultado {
             padding-top: 60px;
+            height: 32px;
+
             display: flex;
             justify-content: center;
 

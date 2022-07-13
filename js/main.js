@@ -2,7 +2,7 @@ let lblResultado = document.getElementById("lblResultadoConversion");
 let btnConvertir = document.getElementById("btnConvertir");
 
 const divisas = [];
-const conversionesRecientes = [];
+let conversionesRecientes = [];
 
 class Divisa {
     constructor(nombre, abreviatura, simbolo, valorRelativo) {
@@ -20,18 +20,19 @@ function GenerarDivisas() {
     divisas.push(new Divisa("Peso Argentino", "ARS", "$", 126.74));
 }
 
+function CargarConversionesRecientes(){
+    if(localStorage.getItem("ConversionesRecientes") != null){
+        conversionesRecientes = JSON.parse(localStorage.getItem("ConversionesRecientes"));
+    }
+}
+
 function GenerarConversionesRecientes(){
     for(let i = 0; i < 5; i++){
         let nuevaConversion = document.createElement("div");
         nuevaConversion.classList.add("conversion-reciente");
         document.getElementById("conversiones-recientes").append(nuevaConversion);
     }
-}
-
-function CalcularConversion(divisaPorConvertir, valor, divisaAConvertir) {
-    let resultado;
-    resultado = (valor / divisaPorConvertir.valorRelativo) * divisaAConvertir.valorRelativo;
-    return resultado;
+    MostrarConversionesRecientes();
 }
 
 function MostrarConversionesRecientes (){
@@ -39,6 +40,12 @@ function MostrarConversionesRecientes (){
     for(let i = 0; i < conversionesRecientes.length; i++){
         conversionesRecientesHTML[i].innerText = conversionesRecientes[i];
     }  
+}
+
+function CalcularConversion(divisaPorConvertir, valor, divisaAConvertir) {
+    let resultado;
+    resultado = (valor / divisaPorConvertir.valorRelativo) * divisaAConvertir.valorRelativo;
+    return resultado;
 }
 
 function ConvertirNumero(){
@@ -58,12 +65,13 @@ function ConvertirNumero(){
             conversionesRecientes.pop();
         }
         MostrarConversionesRecientes();
+        localStorage.setItem("ConversionesRecientes", JSON.stringify(conversionesRecientes));
     } else {
         lblResultado.innerText = "Ingrese un número válido"
     }
 }
 
 GenerarDivisas();
+CargarConversionesRecientes();
 GenerarConversionesRecientes();
 btnConvertir.addEventListener("click", ConvertirNumero);
-console.log(conversionesRecientes.length);

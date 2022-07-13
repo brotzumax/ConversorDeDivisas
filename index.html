@@ -18,35 +18,41 @@
     </header>
 
     <main>
-        <div class="conversor-container">
-            <div class="conversores">
-                <select name="divisaPorConvertir" id="divisaPorConvertir">
-                    <option value="USD">Dólar</option>
-                    <option value="EUR">Euro</option>
-                    <option value="GBP">Libra Esterlina</option>
-                    <option value="ARS">Peso Argentino</option>
-                </select>
-                <span>→</span>
-                <select name="divisaAConvertir" id="divisaAConvertir">
-                    <option value="USD">Dólar</option>
-                    <option value="EUR">Euro</option>
-                    <option value="GBP">Libra Esterlina</option>
-                    <option value="ARS">Peso Argentino</option>
-                </select>
-            </div>
-
-            <div class="cantidades">
-                <div>
-                    <span>Cantidad a convertir:</span>
-                    <input type="text" name="cantidadAConvertir" id="cantidadAConvertir">
+        <div class="container-principal">
+            <div class="conversor-container">
+                <div class="conversores">
+                    <select name="divisaPorConvertir" id="divisaPorConvertir">
+                        <option value="USD">Dólar</option>
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">Libra Esterlina</option>
+                        <option value="ARS">Peso Argentino</option>
+                    </select>
+                    <span>→</span>
+                    <select name="divisaAConvertir" id="divisaAConvertir">
+                        <option value="USD">Dólar</option>
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">Libra Esterlina</option>
+                        <option value="ARS">Peso Argentino</option>
+                    </select>
                 </div>
-                <button id="btnConvertir">Convertir</button>
-            </div>
 
-            <div class="resultado">
-                <label id="lblResultadoConversion"></label>
+                <div class="cantidades">
+                    <div>
+                        <span>Cantidad a convertir:</span>
+                        <input type="text" name="cantidadAConvertir" id="cantidadAConvertir">
+                    </div>
+                    <button id="btnConvertir">Convertir</button>
+                </div>
+
+                <div class="resultado">
+                    <label id="lblResultadoConversion"></label>
+                </div>
+            </div>
+            <div class="container-conversiones-recientes">
+                <h2>Conversiones recientes:</h2>
             </div>
         </div>
+
     </main>
 
     <script src="./js/main.js"></script>

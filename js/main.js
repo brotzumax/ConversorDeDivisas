@@ -2,6 +2,7 @@ let lblResultado = document.getElementById("lblResultadoConversion");
 let btnConvertir = document.getElementById("btnConvertir");
 
 const divisas = [];
+const conversionesRecientes = [];
 
 class Divisa {
     constructor(nombre, abreviatura, simbolo, valorRelativo) {
@@ -19,10 +20,25 @@ function GenerarDivisas() {
     divisas.push(new Divisa("Peso Argentino", "ARS", "$", 126.74));
 }
 
+function GenerarConversionesRecientes(){
+    for(let i = 0; i < 5; i++){
+        let nuevaConversion = document.createElement("div");
+        nuevaConversion.classList.add("conversion-reciente");
+        document.getElementById("conversiones-recientes").append(nuevaConversion);
+    }
+}
+
 function CalcularConversion(divisaPorConvertir, valor, divisaAConvertir) {
     let resultado;
     resultado = (valor / divisaPorConvertir.valorRelativo) * divisaAConvertir.valorRelativo;
     return resultado;
+}
+
+function MostrarConversionesRecientes (){
+    let conversionesRecientesHTML = document.getElementsByClassName("conversion-reciente");
+    for(let i = 0; i < conversionesRecientes.length; i++){
+        conversionesRecientesHTML[i].innerText = conversionesRecientes[i];
+    }  
 }
 
 function ConvertirNumero(){
@@ -37,10 +53,17 @@ function ConvertirNumero(){
     if(!isNaN(cantidadAConvertir) && cantidadAConvertir != ""){
         resultadoConversion = CalcularConversion(divisas[divisaPorConvertir.selectedIndex], cantidadAConvertir, divisas[divisaAConvertir.selectedIndex]).toFixed(2);
         lblResultado.innerText = (`${cantidadAConvertir} ${unidadPorConvertir} = ${resultadoConversion} ${unidadAConvertir}`);
+        conversionesRecientes.unshift(lblResultado.innerText);
+        if(conversionesRecientes.length > 5){
+            conversionesRecientes.pop();
+        }
+        MostrarConversionesRecientes();
     } else {
         lblResultado.innerText = "Ingrese un número válido"
     }
 }
 
 GenerarDivisas();
+GenerarConversionesRecientes();
 btnConvertir.addEventListener("click", ConvertirNumero);
+console.log(conversionesRecientes.length);

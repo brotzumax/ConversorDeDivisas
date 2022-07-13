@@ -1,0 +1,79 @@
+.container-principal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .conversor-container {
+        .conversores {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+
+            font-size: 28px;
+
+            select {
+                font-size: 22px;
+            }
+        }
+
+        .cantidades {
+            padding-top: 30px;
+
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+
+            font-size: 22px;
+
+            input {
+                font-size: 22px;
+            }
+
+            button {
+                font-size: 22px;
+            }
+        }
+
+        .resultado {
+            padding-top: 60px;
+            display: flex;
+            justify-content: center;
+
+            font-size: 28px;
+        }
+    }
+
+    .container-conversiones-recientes {
+        width: 500px;
+        border: 1px solid black;
+        border-radius: 15px;
+
+        h2 {
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: 0px;
+        }
+
+        #conversiones-recientes {
+            width: 100%;
+            min-height: 250px;
+
+            .conversion-reciente {
+                padding-left: 10px;
+                width: 100%;
+                height: 50px;
+
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 22px;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

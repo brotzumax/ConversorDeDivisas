@@ -2,7 +2,7 @@ let lblResultado = document.getElementById("lblResultadoConversion");
 let btnConvertir = document.getElementById("btnConvertir");
 
 const divisas = [];
-let conversionesRecientes = [];
+let conversionesRecientes;
 
 class Divisa {
     constructor(nombre, abreviatura, simbolo, valorRelativo) {
@@ -21,9 +21,7 @@ function GenerarDivisas() {
 }
 
 function CargarConversionesRecientes(){
-    if(localStorage.getItem("ConversionesRecientes") != null){
-        conversionesRecientes = JSON.parse(localStorage.getItem("ConversionesRecientes"));
-    }
+    conversionesRecientes = JSON.parse(localStorage.getItem("ConversionesRecientes")) || []; //Operador OR
 }
 
 function GenerarConversionesRecientes(){
@@ -61,9 +59,7 @@ function ConvertirNumero(){
         resultadoConversion = CalcularConversion(divisas[divisaPorConvertir.selectedIndex], cantidadAConvertir, divisas[divisaAConvertir.selectedIndex]).toFixed(2);
         lblResultado.innerText = (`${cantidadAConvertir} ${unidadPorConvertir} = ${resultadoConversion} ${unidadAConvertir}`);
         conversionesRecientes.unshift(lblResultado.innerText);
-        if(conversionesRecientes.length > 5){
-            conversionesRecientes.pop();
-        }
+        conversionesRecientes.length > 5 && conversionesRecientes.pop(); //Operador AND 
         MostrarConversionesRecientes();
         localStorage.setItem("ConversionesRecientes", JSON.stringify(conversionesRecientes));
     } else {

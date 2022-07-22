@@ -54,13 +54,10 @@ function GuardarResultadoActual(resultadoActual){
 }
 
 function GuardarHorarioActual(horarioActual){
-    let hora = horarioActual.c.hour;
-    let minuto = horarioActual.c.minute;
-    let dia = horarioActual.c.day;
-    let mes = horarioActual.c.month;
-    let año = horarioActual.c.year;
+    let hora = horarioActual.toLocaleString(DateTime.TIME_24_SIMPLE);
+    let fecha = horarioActual.toLocaleString(DateTime.DATE_SHORT);
 
-    horario = `${hora}:${minuto} - ${dia}/${mes}/${año}`;
+    horario = `${hora} - ${fecha}`;
     horariosRecientes.unshift(horario);
 }
 

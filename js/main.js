@@ -49,11 +49,11 @@ function CalcularConversion(divisaPorConvertir, valor, divisaAConvertir) {
     return resultado;
 }
 
-function GuardarResultadoActual(resultadoActual){
+function GuardarResultadoActual(resultadoActual) {
     conversionesRecientes.unshift(resultadoActual);
 }
 
-function GuardarHorarioActual(horarioActual){
+function GuardarHorarioActual(horarioActual) {
     let hora = horarioActual.toLocaleString(DateTime.TIME_24_SIMPLE);
     let fecha = horarioActual.toLocaleString(DateTime.DATE_SHORT);
 

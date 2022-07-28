@@ -1,1045 +1,1045 @@
 [
-  {
-    "Codigo": "AED",
-    "Nombre": "Dírham de los Emiratos Árabes Unidos",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "AFN",
-    "Nombre": "Afgani de Afganistán",
-    "Principio": "01/01/0001",
-    "Final": "28/11/2020",
-    "Total de años": 2019
-  },
-  {
-    "Codigo": "ALL",
-    "Nombre": "Lek albanés",
-    "Principio": "02/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "AMD",
-    "Nombre": "Dram armenio",
-    "Principio": "01/01/0001",
-    "Final": "27/11/2020",
-    "Total de años": 2019
-  },
-  {
-    "Codigo": "AOA",
-    "Nombre": "Angola kwanza",
-    "Principio": "25/01/2014",
-    "Final": "27/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "ARS",
-    "Nombre": "Peso argentino",
-    "Principio": "12/07/2001",
-    "Final": "28/11/2020",
-    "Total de años": 19
-  },
-  {
-    "Codigo": "AUD",
-    "Nombre": "Dólar australiano",
-    "Principio": "16/05/2006",
-    "Final": "27/11/2020",
-    "Total de años": 14
-  },
-  {
-    "Codigo": "AWG",
-    "Nombre": "Florin Aruba",
-    "Principio": "23/08/2004",
-    "Final": "28/11/2020",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "AZN",
-    "Nombre": "Azerbaiyán manat",
-    "Principio": "25/01/2014",
-    "Final": "27/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "BAM",
-    "Nombre": "Convertibles marca",
-    "Principio": "25/01/2014",
-    "Final": "27/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "BBD",
-    "Nombre": "Dólar de Barbados",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "BCH",
-    "Nombre": "Bitcoin Cash",
-    "Principio": "01/01/0001",
-    "Final": "01/01/0001",
-    "Total de años": 0
-  },
-  {
-    "Codigo": "BDT",
-    "Nombre": "Bangladesh Taka",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "BGN",
-    "Nombre": "Lev",
-    "Principio": "07/03/2002",
-    "Final": "27/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "BHD",
-    "Nombre": "Dinar de Bahrein",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "BIF",
-    "Nombre": "Franco de Burundi",
-    "Principio": "24/01/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "BMD",
-    "Nombre": "Dólar de Bermudas",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "BND",
-    "Nombre": "Dólar de Brunei",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "BOB",
-    "Nombre": "Boliviano",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "BRL",
-    "Nombre": "Real brasileño",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "BSD",
-    "Nombre": "Dólar de las Bahamas",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "BTC",
-    "Nombre": "Bitcoin",
-    "Principio": "01/01/0001",
-    "Final": "28/11/2020",
-    "Total de años": 2019
-  },
-  {
-    "Codigo": "BTN",
-    "Nombre": "Ngultrum Bhután",
-    "Principio": "25/01/2014",
-    "Final": "27/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "BWP",
-    "Nombre": "Pula de Botswana",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "BYN",
-    "Nombre": "Rublo bielorruso",
-    "Principio": "01/01/0001",
-    "Final": "28/11/2020",
-    "Total de años": 2019
-  },
-  {
-    "Codigo": "BYR",
-    "Nombre": "Rublo bielorruso",
-    "Principio": "25/01/2014",
-    "Final": "30/06/2016",
-    "Total de años": 2
-  },
-  {
-    "Codigo": "BZD",
-    "Nombre": "Dólar de Belice",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "CAD",
-    "Nombre": "Dolar canadiense",
-    "Principio": "17/09/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "CDF",
-    "Nombre": "Franco congoleño",
-    "Principio": "01/01/0001",
-    "Final": "28/11/2020",
-    "Total de años": 2019
-  },
-  {
-    "Codigo": "CHF",
-    "Nombre": "Franco suizo",
-    "Principio": "17/09/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "CLP",
-    "Nombre": "Peso chileno",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "CNY",
-    "Nombre": "Chino Yuan",
-    "Principio": "31/05/2001",
-    "Final": "28/11/2020",
-    "Total de años": 19
-  },
-  {
-    "Codigo": "COP",
-    "Nombre": "Peso colombiano",
-    "Principio": "30/05/2001",
-    "Final": "28/11/2020",
-    "Total de años": 19
-  },
-  {
-    "Codigo": "CRC",
-    "Nombre": "Costa Rica Colón",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "CUP",
-    "Nombre": "Peso cubano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "CVE",
-    "Nombre": "Escudo caboverdiano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "CZK",
-    "Nombre": "Corona checa",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "DJF",
-    "Nombre": "Franco de Yibuti",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "DKK",
-    "Nombre": "Corona danesa",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "DOP",
-    "Nombre": "Peso dominicano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "DZD",
-    "Nombre": "Dinar argelino",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "ECS",
-    "Nombre": "Sucre ecuatoriano",
-    "Principio": "10/12/2014",
-    "Final": "24/02/2017",
-    "Total de años": 3
-  },
-  {
-    "Codigo": "EGP",
-    "Nombre": "Libra egipcia",
-    "Principio": "29/05/2001",
-    "Final": "28/11/2020",
-    "Total de años": 19
-  },
-  {
-    "Codigo": "ERN",
-    "Nombre": "Nakfa Eritrea",
-    "Principio": "25/01/2014",
-    "Final": "28/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "ETB",
-    "Nombre": "Birr etíope",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "ETH",
-    "Nombre": "Etereum",
-    "Principio": "01/01/0001",
-    "Final": "28/11/2020",
-    "Total de años": 2019
-  },
-  {
-    "Codigo": "EUR",
-    "Nombre": "Euro",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "FJD",
-    "Nombre": "Dólar fiyiano",
-    "Principio": "21/06/2006",
-    "Final": "27/11/2020",
-    "Total de años": 14
-  },
-  {
-    "Codigo": "FKP",
-    "Nombre": "Libra de las Islas Malvinas",
-    "Principio": "25/01/2014",
-    "Final": "03/10/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "GBP",
-    "Nombre": "Libra esterlina",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "GEL",
-    "Nombre": "Lari georgiano",
-    "Principio": "25/01/2014",
-    "Final": "27/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "GHS",
-    "Nombre": "Cedi de Ghana",
-    "Principio": "11/07/2007",
-    "Final": "28/11/2020",
-    "Total de años": 13
-  },
-  {
-    "Codigo": "GIP",
-    "Nombre": "Libra de Gibraltar",
-    "Principio": "25/01/2014",
-    "Final": "27/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "GMD",
-    "Nombre": "Dalasi de Gambia",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "GNF",
-    "Nombre": "Guinea franco",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "GTQ",
-    "Nombre": "Guatemala quetzal",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "GYD",
-    "Nombre": "Dólar de Guyana",
-    "Principio": "31/03/2005",
-    "Final": "28/11/2020",
-    "Total de años": 15
-  },
-  {
-    "Codigo": "HKD",
-    "Nombre": "Dolar de Hong Kong",
-    "Principio": "16/07/2001",
-    "Final": "28/11/2020",
-    "Total de años": 19
-  },
-  {
-    "Codigo": "HNL",
-    "Nombre": "Lempira hondureño",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "HRK",
-    "Nombre": "Kuna croata",
-    "Principio": "07/03/2002",
-    "Final": "27/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "HTG",
-    "Nombre": "Gourde haitiano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "HUF",
-    "Nombre": "Florín húngaro",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "IDR",
-    "Nombre": "Rupia Indonesia",
-    "Principio": "26/06/2001",
-    "Final": "28/11/2020",
-    "Total de años": 19
-  },
-  {
-    "Codigo": "ILS",
-    "Nombre": "Shekel israelí",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "INR",
-    "Nombre": "Rupia india",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "IQD",
-    "Nombre": "Dinar iraquí",
-    "Principio": "21/01/2004",
-    "Final": "28/11/2020",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "IRR",
-    "Nombre": "Rial iraní",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "ISK",
-    "Nombre": "Corona islandesa",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "JMD",
-    "Nombre": "Dólar de Jamaica",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "JOD",
-    "Nombre": "Dinar jordano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "JPY",
-    "Nombre": "Yen japonés",
-    "Principio": "01/01/1999",
-    "Final": "27/11/2020",
-    "Total de años": 21
-  },
-  {
-    "Codigo": "KES",
-    "Nombre": "Chelín keniano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "KGS",
-    "Nombre": "Som kirguís",
-    "Principio": "25/01/2014",
-    "Final": "26/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "KHR",
-    "Nombre": "Riel camboyano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "KMF",
-    "Nombre": "Comoras Franco",
-    "Principio": "26/08/2004",
-    "Final": "28/11/2020",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "KPW",
-    "Nombre": "Won de Corea del Norte",
-    "Principio": "25/01/2014",
-    "Final": "28/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "KRW",
-    "Nombre": "Corea del Sur ganó",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "KWD",
-    "Nombre": "Dinar kuwaití",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "KYD",
-    "Nombre": "Dólar de las Islas Caimán",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "KZT",
-    "Nombre": "Tenge kazajo",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "LAK",
-    "Nombre": "Kip lao",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "LBP",
-    "Nombre": "Libra libanesa",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "LKR",
-    "Nombre": "Rupia de Sri Lanka",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "LRD",
-    "Nombre": "Dólar liberiano",
-    "Principio": "31/03/2010",
-    "Final": "28/11/2020",
-    "Total de años": 10
-  },
-  {
-    "Codigo": "LSL",
-    "Nombre": "Loti de Lesotho",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "LTC",
-    "Nombre": "Litecoin",
-    "Principio": "01/01/0001",
-    "Final": "28/11/2020",
-    "Total de años": 2019
-  },
-  {
-    "Codigo": "LYD",
-    "Nombre": "Dinar libio",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "MAD",
-    "Nombre": "Dirham marroquí",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "MDL",
-    "Nombre": "Leu moldavo",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "MGA",
-    "Nombre": "Ariary malgache",
-    "Principio": "03/01/2005",
-    "Final": "27/11/2020",
-    "Total de años": 15
-  },
-  {
-    "Codigo": "MKD",
-    "Nombre": "Denar macedonio",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "MMK",
-    "Nombre": "Kyat birmano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "MNT",
-    "Nombre": "Mongolia Tugrik",
-    "Principio": "25/01/2014",
-    "Final": "28/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "MOP",
-    "Nombre": "Pataca de Macao",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "MRO",
-    "Nombre": "Mauritania ouguiya",
-    "Principio": "01/12/2003",
-    "Final": "28/01/2019",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "MUR",
-    "Nombre": "Rupia de Mauricio",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "MVR",
-    "Nombre": "Rufiyaa de Maldivas",
-    "Principio": "25/08/2004",
-    "Final": "28/11/2020",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "MWK",
-    "Nombre": "Kwacha de Malawi",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "MXN",
-    "Nombre": "Peso mejicano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "MYR",
-    "Nombre": "Ringgit malayo",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "NAD",
-    "Nombre": "Dólar de Namibia",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "NGN",
-    "Nombre": "Naira Nigeria",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "NIO",
-    "Nombre": "Córdoba",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "NOK",
-    "Nombre": "Corona noruega",
-    "Principio": "16/07/2001",
-    "Final": "27/11/2020",
-    "Total de años": 19
-  },
-  {
-    "Codigo": "NPR",
-    "Nombre": "Rupia de Nepal",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "NZD",
-    "Nombre": "Dolar de Nueva Zelanda",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "OMR",
-    "Nombre": "Rial de Omán",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "PAB",
-    "Nombre": "Balboa panameño",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "PEN",
-    "Nombre": "Sol peruano",
-    "Principio": "31/05/2001",
-    "Final": "28/11/2020",
-    "Total de años": 19
-  },
-  {
-    "Codigo": "PGK",
-    "Nombre": "Papua Nueva Guinea Kina",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "PHP",
-    "Nombre": "Peso filipino",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "PKR",
-    "Nombre": "Rupia paquistaní",
-    "Principio": "08/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "PLN",
-    "Nombre": "Zloty polaco",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "PYG",
-    "Nombre": "Guaraní paraguayo",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "QAR",
-    "Nombre": "Rial qatarí",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "RON",
-    "Nombre": "Leu rumano",
-    "Principio": "27/06/2005",
-    "Final": "27/11/2020",
-    "Total de años": 15
-  },
-  {
-    "Codigo": "RSD",
-    "Nombre": "Dinar serbio",
-    "Principio": "05/02/2007",
-    "Final": "27/11/2020",
-    "Total de años": 13
-  },
-  {
-    "Codigo": "RUB",
-    "Nombre": "Rublo ruso",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "RWF",
-    "Nombre": "Ruanda franco",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "SAR",
-    "Nombre": "Riyal saudí",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "SBD",
-    "Nombre": "Dólar de las Islas Salomón",
-    "Principio": "25/01/2014",
-    "Final": "27/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "SCR",
-    "Nombre": "Rupia de Seychelles",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "SEK",
-    "Nombre": "Corona sueca",
-    "Principio": "16/07/2001",
-    "Final": "27/11/2020",
-    "Total de años": 19
-  },
-  {
-    "Codigo": "SGD",
-    "Nombre": "Dolar de Singapur",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "SHP",
-    "Nombre": "Saint Helena Libra",
-    "Principio": "17/03/2005",
-    "Final": "03/10/2020",
-    "Total de años": 15
-  },
-  {
-    "Codigo": "SLL",
-    "Nombre": "Leone de Sierra Leona",
-    "Principio": "25/08/2004",
-    "Final": "28/11/2020",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "SOS",
-    "Nombre": "Chelín somalí",
-    "Principio": "01/12/2003",
-    "Final": "27/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "SRD",
-    "Nombre": "Dólar de Surinam",
-    "Principio": "25/01/2014",
-    "Final": "28/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "STD",
-    "Nombre": "Santo Tomé y Príncipe dobra",
-    "Principio": "01/12/2003",
-    "Final": "28/01/2019",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "SVC",
-    "Nombre": "Colón salvadoreño",
-    "Principio": "24/08/2004",
-    "Final": "28/11/2020",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "SYP",
-    "Nombre": "Libra Siria",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "SZL",
-    "Nombre": "Swazilandia Lilangeni",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "THB",
-    "Nombre": "Baht tailandés",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "TND",
-    "Nombre": "Dinar tunecino",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "TOP",
-    "Nombre": "Pa'anga tongano",
-    "Principio": "25/01/2014",
-    "Final": "28/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "TRY",
-    "Nombre": "Lira turca",
-    "Principio": "03/01/2005",
-    "Final": "28/11/2020",
-    "Total de años": 15
-  },
-  {
-    "Codigo": "TTD",
-    "Nombre": "Trinidad",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "TWD",
-    "Nombre": "Dólar de Taiwán",
-    "Principio": "24/03/2004",
-    "Final": "28/11/2020",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "TZS",
-    "Nombre": "Shilling tanzano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "UAH",
-    "Nombre": "Hryvnia Ucrania",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "UGX",
-    "Nombre": "Shilling de Uganda",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "USD",
-    "Nombre": "Dólar de los Estados Unidos",
-    "Principio": "01/01/1970",
-    "Final": "28/11/2020",
-    "Total de años": 50
-  },
-  {
-    "Codigo": "UYU",
-    "Nombre": "Peso uruguayo",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "UZS",
-    "Nombre": "Som uzbekistani",
-    "Principio": "11/08/2005",
-    "Final": "27/11/2020",
-    "Total de años": 15
-  },
-  {
-    "Codigo": "VND",
-    "Nombre": "Dong vietnamita",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  },
-  {
-    "Codigo": "VUV",
-    "Nombre": "Vanuatu Vatu",
-    "Principio": "07/03/2002",
-    "Final": "28/11/2020",
-    "Total de años": 18
-  },
-  {
-    "Codigo": "WST",
-    "Nombre": "Samoan Tala",
-    "Principio": "25/01/2014",
-    "Final": "28/11/2020",
-    "Total de años": 6
-  },
-  {
-    "Codigo": "YER",
-    "Nombre": "Rial yemení",
-    "Principio": "24/08/2004",
-    "Final": "27/11/2020",
-    "Total de años": 16
-  },
-  {
-    "Codigo": "ZAR",
-    "Nombre": "Rand sudafricano",
-    "Principio": "01/12/2003",
-    "Final": "28/11/2020",
-    "Total de años": 17
-  }
+	{
+		"Codigo": "AFN",
+		"Nombre": "Afgani de Afganistán",
+		"Principio": "01/01/0001",
+		"Final": "28/11/2020",
+		"Total de años": 2019
+	},
+	{
+		"Codigo": "AOA",
+		"Nombre": "Angola kwanza",
+		"Principio": "25/01/2014",
+		"Final": "27/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "MGA",
+		"Nombre": "Ariary malgache",
+		"Principio": "03/01/2005",
+		"Final": "27/11/2020",
+		"Total de años": 15
+	},
+	{
+		"Codigo": "AZN",
+		"Nombre": "Azerbaiyán manat",
+		"Principio": "25/01/2014",
+		"Final": "27/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "THB",
+		"Nombre": "Baht tailandés",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "PAB",
+		"Nombre": "Balboa panameño",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "BDT",
+		"Nombre": "Bangladesh Taka",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "ETB",
+		"Nombre": "Birr etíope",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "BTC",
+		"Nombre": "Bitcoin",
+		"Principio": "01/01/0001",
+		"Final": "28/11/2020",
+		"Total de años": 2019
+	},
+	{
+		"Codigo": "BCH",
+		"Nombre": "Bitcoin Cash",
+		"Principio": "01/01/0001",
+		"Final": "01/01/0001",
+		"Total de años": 0
+	},
+	{
+		"Codigo": "BOB",
+		"Nombre": "Boliviano",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "GHS",
+		"Nombre": "Cedi de Ghana",
+		"Principio": "11/07/2007",
+		"Final": "28/11/2020",
+		"Total de años": 13
+	},
+	{
+		"Codigo": "KES",
+		"Nombre": "Chelín keniano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "SOS",
+		"Nombre": "Chelín somalí",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "CNY",
+		"Nombre": "Chino Yuan",
+		"Principio": "31/05/2001",
+		"Final": "28/11/2020",
+		"Total de años": 19
+	},
+	{
+		"Codigo": "SVC",
+		"Nombre": "Colón salvadoreño",
+		"Principio": "24/08/2004",
+		"Final": "28/11/2020",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "KMF",
+		"Nombre": "Comoras Franco",
+		"Principio": "26/08/2004",
+		"Final": "28/11/2020",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "BAM",
+		"Nombre": "Convertibles marca",
+		"Principio": "25/01/2014",
+		"Final": "27/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "CZK",
+		"Nombre": "Corona checa",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "DKK",
+		"Nombre": "Corona danesa",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "ISK",
+		"Nombre": "Corona islandesa",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "NOK",
+		"Nombre": "Corona noruega",
+		"Principio": "16/07/2001",
+		"Final": "27/11/2020",
+		"Total de años": 19
+	},
+	{
+		"Codigo": "SEK",
+		"Nombre": "Corona sueca",
+		"Principio": "16/07/2001",
+		"Final": "27/11/2020",
+		"Total de años": 19
+	},
+	{
+		"Codigo": "CRC",
+		"Nombre": "Costa Rica Colón",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "NIO",
+		"Nombre": "Córdoba",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "GMD",
+		"Nombre": "Dalasi de Gambia",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "MKD",
+		"Nombre": "Denar macedonio",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "DZD",
+		"Nombre": "Dinar argelino",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "BHD",
+		"Nombre": "Dinar de Bahrein",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "IQD",
+		"Nombre": "Dinar iraquí",
+		"Principio": "21/01/2004",
+		"Final": "28/11/2020",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "JOD",
+		"Nombre": "Dinar jordano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "KWD",
+		"Nombre": "Dinar kuwaití",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "LYD",
+		"Nombre": "Dinar libio",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "RSD",
+		"Nombre": "Dinar serbio",
+		"Principio": "05/02/2007",
+		"Final": "27/11/2020",
+		"Total de años": 13
+	},
+	{
+		"Codigo": "TND",
+		"Nombre": "Dinar tunecino",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "MAD",
+		"Nombre": "Dirham marroquí",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "CAD",
+		"Nombre": "Dolar canadiense",
+		"Principio": "17/09/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "HKD",
+		"Nombre": "Dolar de Hong Kong",
+		"Principio": "16/07/2001",
+		"Final": "28/11/2020",
+		"Total de años": 19
+	},
+	{
+		"Codigo": "NZD",
+		"Nombre": "Dolar de Nueva Zelanda",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "SGD",
+		"Nombre": "Dolar de Singapur",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "VND",
+		"Nombre": "Dong vietnamita",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "AMD",
+		"Nombre": "Dram armenio",
+		"Principio": "01/01/0001",
+		"Final": "27/11/2020",
+		"Total de años": 2019
+	},
+	{
+		"Codigo": "AED",
+		"Nombre": "Dírham de los Emiratos Árabes Unidos",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "AUD",
+		"Nombre": "Dólar australiano",
+		"Principio": "16/05/2006",
+		"Final": "27/11/2020",
+		"Total de años": 14
+	},
+	{
+		"Codigo": "BBD",
+		"Nombre": "Dólar de Barbados",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "BZD",
+		"Nombre": "Dólar de Belice",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "BMD",
+		"Nombre": "Dólar de Bermudas",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "BND",
+		"Nombre": "Dólar de Brunei",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "GYD",
+		"Nombre": "Dólar de Guyana",
+		"Principio": "31/03/2005",
+		"Final": "28/11/2020",
+		"Total de años": 15
+	},
+	{
+		"Codigo": "JMD",
+		"Nombre": "Dólar de Jamaica",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "NAD",
+		"Nombre": "Dólar de Namibia",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "SRD",
+		"Nombre": "Dólar de Surinam",
+		"Principio": "25/01/2014",
+		"Final": "28/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "TWD",
+		"Nombre": "Dólar de Taiwán",
+		"Principio": "24/03/2004",
+		"Final": "28/11/2020",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "BSD",
+		"Nombre": "Dólar de las Bahamas",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "KYD",
+		"Nombre": "Dólar de las Islas Caimán",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "SBD",
+		"Nombre": "Dólar de las Islas Salomón",
+		"Principio": "25/01/2014",
+		"Final": "27/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "USD",
+		"Nombre": "Dólar de los Estados Unidos",
+		"Principio": "01/01/1970",
+		"Final": "28/11/2020",
+		"Total de años": 50
+	},
+	{
+		"Codigo": "FJD",
+		"Nombre": "Dólar fiyiano",
+		"Principio": "21/06/2006",
+		"Final": "27/11/2020",
+		"Total de años": 14
+	},
+	{
+		"Codigo": "LRD",
+		"Nombre": "Dólar liberiano",
+		"Principio": "31/03/2010",
+		"Final": "28/11/2020",
+		"Total de años": 10
+	},
+	{
+		"Codigo": "CVE",
+		"Nombre": "Escudo caboverdiano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "ETH",
+		"Nombre": "Etereum",
+		"Principio": "01/01/0001",
+		"Final": "28/11/2020",
+		"Total de años": 2019
+	},
+	{
+		"Codigo": "EUR",
+		"Nombre": "Euro",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "AWG",
+		"Nombre": "Florin Aruba",
+		"Principio": "23/08/2004",
+		"Final": "28/11/2020",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "HUF",
+		"Nombre": "Florín húngaro",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "CDF",
+		"Nombre": "Franco congoleño",
+		"Principio": "01/01/0001",
+		"Final": "28/11/2020",
+		"Total de años": 2019
+	},
+	{
+		"Codigo": "BIF",
+		"Nombre": "Franco de Burundi",
+		"Principio": "24/01/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "DJF",
+		"Nombre": "Franco de Yibuti",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "CHF",
+		"Nombre": "Franco suizo",
+		"Principio": "17/09/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "HTG",
+		"Nombre": "Gourde haitiano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "PYG",
+		"Nombre": "Guaraní paraguayo",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "GTQ",
+		"Nombre": "Guatemala quetzal",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "GNF",
+		"Nombre": "Guinea franco",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "UAH",
+		"Nombre": "Hryvnia Ucrania",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "LAK",
+		"Nombre": "Kip lao",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "HRK",
+		"Nombre": "Kuna croata",
+		"Principio": "07/03/2002",
+		"Final": "27/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "MWK",
+		"Nombre": "Kwacha de Malawi",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "MMK",
+		"Nombre": "Kyat birmano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "GEL",
+		"Nombre": "Lari georgiano",
+		"Principio": "25/01/2014",
+		"Final": "27/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "ALL",
+		"Nombre": "Lek albanés",
+		"Principio": "02/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "HNL",
+		"Nombre": "Lempira hondureño",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "SLL",
+		"Nombre": "Leone de Sierra Leona",
+		"Principio": "25/08/2004",
+		"Final": "28/11/2020",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "MDL",
+		"Nombre": "Leu moldavo",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "RON",
+		"Nombre": "Leu rumano",
+		"Principio": "27/06/2005",
+		"Final": "27/11/2020",
+		"Total de años": 15
+	},
+	{
+		"Codigo": "BGN",
+		"Nombre": "Lev",
+		"Principio": "07/03/2002",
+		"Final": "27/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "SYP",
+		"Nombre": "Libra Siria",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "GIP",
+		"Nombre": "Libra de Gibraltar",
+		"Principio": "25/01/2014",
+		"Final": "27/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "FKP",
+		"Nombre": "Libra de las Islas Malvinas",
+		"Principio": "25/01/2014",
+		"Final": "03/10/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "EGP",
+		"Nombre": "Libra egipcia",
+		"Principio": "29/05/2001",
+		"Final": "28/11/2020",
+		"Total de años": 19
+	},
+	{
+		"Codigo": "GBP",
+		"Nombre": "Libra esterlina",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "LBP",
+		"Nombre": "Libra libanesa",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "TRY",
+		"Nombre": "Lira turca",
+		"Principio": "03/01/2005",
+		"Final": "28/11/2020",
+		"Total de años": 15
+	},
+	{
+		"Codigo": "LTC",
+		"Nombre": "Litecoin",
+		"Principio": "01/01/0001",
+		"Final": "28/11/2020",
+		"Total de años": 2019
+	},
+	{
+		"Codigo": "LSL",
+		"Nombre": "Loti de Lesotho",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "MRO",
+		"Nombre": "Mauritania ouguiya",
+		"Principio": "01/12/2003",
+		"Final": "28/01/2019",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "MNT",
+		"Nombre": "Mongolia Tugrik",
+		"Principio": "25/01/2014",
+		"Final": "28/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "NGN",
+		"Nombre": "Naira Nigeria",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "ERN",
+		"Nombre": "Nakfa Eritrea",
+		"Principio": "25/01/2014",
+		"Final": "28/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "BTN",
+		"Nombre": "Ngultrum Bhután",
+		"Principio": "25/01/2014",
+		"Final": "27/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "TOP",
+		"Nombre": "Pa'anga tongano",
+		"Principio": "25/01/2014",
+		"Final": "28/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "PGK",
+		"Nombre": "Papua Nueva Guinea Kina",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "MOP",
+		"Nombre": "Pataca de Macao",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "ARS",
+		"Nombre": "Peso argentino",
+		"Principio": "12/07/2001",
+		"Final": "28/11/2020",
+		"Total de años": 19
+	},
+	{
+		"Codigo": "CLP",
+		"Nombre": "Peso chileno",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "COP",
+		"Nombre": "Peso colombiano",
+		"Principio": "30/05/2001",
+		"Final": "28/11/2020",
+		"Total de años": 19
+	},
+	{
+		"Codigo": "CUP",
+		"Nombre": "Peso cubano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "DOP",
+		"Nombre": "Peso dominicano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "PHP",
+		"Nombre": "Peso filipino",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "MXN",
+		"Nombre": "Peso mexicano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "UYU",
+		"Nombre": "Peso uruguayo",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "BWP",
+		"Nombre": "Pula de Botswana",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "ZAR",
+		"Nombre": "Rand sudafricano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "BRL",
+		"Nombre": "Real brasileño",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "OMR",
+		"Nombre": "Rial de Omán",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "IRR",
+		"Nombre": "Rial iraní",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "QAR",
+		"Nombre": "Rial qatarí",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "YER",
+		"Nombre": "Rial yemení",
+		"Principio": "24/08/2004",
+		"Final": "27/11/2020",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "KHR",
+		"Nombre": "Riel camboyano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "MYR",
+		"Nombre": "Ringgit malayo",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "SAR",
+		"Nombre": "Riyal saudí",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "RWF",
+		"Nombre": "Ruanda franco",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "BYN",
+		"Nombre": "Rublo bielorruso",
+		"Principio": "01/01/0001",
+		"Final": "28/11/2020",
+		"Total de años": 2019
+	},
+	{
+		"Codigo": "BYR",
+		"Nombre": "Rublo bielorruso",
+		"Principio": "25/01/2014",
+		"Final": "30/06/2016",
+		"Total de años": 2
+	},
+	{
+		"Codigo": "RUB",
+		"Nombre": "Rublo ruso",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "MVR",
+		"Nombre": "Rufiyaa de Maldivas",
+		"Principio": "25/08/2004",
+		"Final": "28/11/2020",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "IDR",
+		"Nombre": "Rupia Indonesia",
+		"Principio": "26/06/2001",
+		"Final": "28/11/2020",
+		"Total de años": 19
+	},
+	{
+		"Codigo": "MUR",
+		"Nombre": "Rupia de Mauricio",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "NPR",
+		"Nombre": "Rupia de Nepal",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "SCR",
+		"Nombre": "Rupia de Seychelles",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "LKR",
+		"Nombre": "Rupia de Sri Lanka",
+		"Principio": "01/12/2003",
+		"Final": "27/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "INR",
+		"Nombre": "Rupia india",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "PKR",
+		"Nombre": "Rupia paquistaní",
+		"Principio": "08/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "SHP",
+		"Nombre": "Saint Helena Libra",
+		"Principio": "17/03/2005",
+		"Final": "03/10/2020",
+		"Total de años": 15
+	},
+	{
+		"Codigo": "WST",
+		"Nombre": "Samoan Tala",
+		"Principio": "25/01/2014",
+		"Final": "28/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "STD",
+		"Nombre": "Santo Tomé y Príncipe dobra",
+		"Principio": "01/12/2003",
+		"Final": "28/01/2019",
+		"Total de años": 16
+	},
+	{
+		"Codigo": "ILS",
+		"Nombre": "Shekel israelí",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "UGX",
+		"Nombre": "Shilling de Uganda",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "TZS",
+		"Nombre": "Shilling tanzano",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "PEN",
+		"Nombre": "Sol peruano",
+		"Principio": "31/05/2001",
+		"Final": "28/11/2020",
+		"Total de años": 19
+	},
+	{
+		"Codigo": "KGS",
+		"Nombre": "Som kirguís",
+		"Principio": "25/01/2014",
+		"Final": "26/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "UZS",
+		"Nombre": "Som uzbekistani",
+		"Principio": "11/08/2005",
+		"Final": "27/11/2020",
+		"Total de años": 15
+	},
+	{
+		"Codigo": "ECS",
+		"Nombre": "Sucre ecuatoriano",
+		"Principio": "10/12/2014",
+		"Final": "24/02/2017",
+		"Total de años": 3
+	},
+	{
+		"Codigo": "SZL",
+		"Nombre": "Swazilandia Lilangeni",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "KZT",
+		"Nombre": "Tenge kazajo",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "TTD",
+		"Nombre": "Trinidad",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "VUV",
+		"Nombre": "Vanuatu Vatu",
+		"Principio": "07/03/2002",
+		"Final": "28/11/2020",
+		"Total de años": 18
+	},
+	{
+		"Codigo": "KPW",
+		"Nombre": "Won de Corea del Norte",
+		"Principio": "25/01/2014",
+		"Final": "28/11/2020",
+		"Total de años": 6
+	},
+	{
+		"Codigo": "KRW",
+		"Nombre": "Won de Corea del Sur",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	},
+	{
+		"Codigo": "JPY",
+		"Nombre": "Yen japonés",
+		"Principio": "01/01/1999",
+		"Final": "27/11/2020",
+		"Total de años": 21
+	},
+	{
+		"Codigo": "PLN",
+		"Nombre": "Zloty polaco",
+		"Principio": "01/12/2003",
+		"Final": "28/11/2020",
+		"Total de años": 17
+	}
 ]

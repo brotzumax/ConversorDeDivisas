@@ -1,3 +1,19 @@
 body {
     margin: 0px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 100vh;
+    overflow: hidden;
+
+    background-color: #4c66a4;
+
+    main {
+        height: 100%;
+
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #ffffff;
+
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
 }

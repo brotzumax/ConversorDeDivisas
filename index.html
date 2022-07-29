@@ -6,8 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <!-- Styles -->
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <title>Conversor de divisas</title>
 </head>
@@ -22,10 +29,9 @@
             <div class="conversor-container">
                 <div class="conversores">
                     <select name="divisaPorConvertir" id="divisaPorConvertir"></select>
-                    <span>→</span>
+                    <button id="btnReversa"></button>
                     <select name="divisaAConvertir" id="divisaAConvertir"></select>
                 </div>
-
                 <div class="cantidades">
                     <div>
                         <span>Cantidad a convertir:</span>
@@ -37,14 +43,18 @@
                 <div class="resultado">
                     <label id="lblResultadoConversion"></label>
                 </div>
-            </div>
 
-            <div class="container-conversiones-recientes">
-                <h2>Conversiones recientes:</h2>
-                <div id="conversiones-recientes">
+                <div class="container-conversiones-recientes">
+                    <h2>Conversiones recientes:</h2>
+                    <div id="conversiones-recientes">
+                    </div>
                 </div>
             </div>
+            <div class="container-timeserie">
+                <canvas id="myChart" width="450" height="450"></canvas>
+            </div>
         </div>
+
 
     </main>
 

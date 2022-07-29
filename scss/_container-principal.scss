@@ -1,10 +1,8 @@
 .container-principal {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
     font-family: Arial, Helvetica, sans-serif;
 
     .conversor-container {
@@ -12,12 +10,24 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            align-items: center;
             gap: 30px;
 
             font-size: 28px;
 
             select {
-                font-size: 22px;
+                font-size: 20px;
+                width: 250px;
+            }
+
+            button {
+                width: 25px;
+                height: 25px;
+                background-image: url(../img/swap.png);
+                background-size: 100%;
+                background-color: #ffffff;
+                border: 0px;
+
             }
         }
 
@@ -27,21 +37,36 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            align-items: center;
             gap: 30px;
 
             font-size: 22px;
 
             input {
                 font-size: 22px;
+                width: 220px;
             }
 
             button {
+                padding: 10px;
                 font-size: 22px;
+                background-color: #ffffff;
+                border: 2px solid #4c66a4;
+                border-radius: 20px;
+
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+
+                &:hover {
+                    background-color: #4c66a4;
+                    color: #ffffff;
+                }
             }
         }
 
         .resultado {
-            padding-top: 60px;
+            padding-top: 30px;
+            padding-bottom: 30px;
             height: 32px;
 
             display: flex;
@@ -50,45 +75,51 @@
             font-size: 28px;
         }
     }
+}
 
-    .container-conversiones-recientes {
-        width: 500px;
-        border: 2px solid black;
-        border-radius: 15px;
-        overflow: hidden;
+.container-conversiones-recientes {
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
 
-        h2 {
+    h2 {
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0px;
+
+        background-color: #4c66a4;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #conversiones-recientes {
+        width: 100%;
+        min-height: 250px;
+
+        .conversion-reciente {
             padding-left: 10px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            margin: 0px;
+            height: 50px;
+            border-top: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
 
-            background-color: #4c66a4;
-            color: #ffffff;
-        }
+            font-family: Arial, Helvetica, sans-serif;
 
-        #conversiones-recientes {
-            width: 100%;
-            min-height: 250px;
+            .resultado-conversion {
+                font-size: 22px;
+            }
 
-            .conversion-reciente {
-                padding-left: 10px;
-                height: 50px;
-                border-top: 1px solid black;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-
-                font-family: Arial, Helvetica, sans-serif;
-
-                .resultado-conversion {
-                    font-size: 22px;
-                }
-
-                .horario-conversion {
-                    font-size: 16px;
-                }
+            .horario-conversion {
+                font-size: 16px;
             }
         }
     }
+}
+
+.container-timeserie {
+    max-height: 450px;
+    max-width: 450px;
 }

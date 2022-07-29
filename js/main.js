@@ -1,17 +1,21 @@
 let lblResultado = document.getElementById("lblResultadoConversion");
 let btnConvertir = document.getElementById("btnConvertir");
+let btnReversa = document.getElementById("btnReversa");
 let sctDivisaPorConvertir = document.getElementById("divisaPorConvertir");
 let sctDivisaAConvertir = document.getElementById("divisaAConvertir");
 
 const DateTime = luxon.DateTime;
 let conversionesRecientes;
+let tablaCreada = false;
 
-
+//CONVERSOR
 class Conversion {
     constructor(unidadPorConvertir, cantidadPorConvertir, unidadAConvertir, resultado, horarioConversion) {
         this.unidadPorConvertir = unidadPorConvertir;
         this.cantidadPorConvertir = cantidadPorConvertir;
         this.unidadAConvertir = unidadAConvertir;
+        this.resultado = resultado;
+        this.horarioConversion = horarioConversion;
     }
 
     mostrarResultado() {
@@ -25,7 +29,6 @@ class Conversion {
         let fecha = horarioActual.toLocaleString(DateTime.DATE_SHORT);
 
         this.horarioConversion = `${hora} - ${fecha}`;
-        console.log(this.horarioConversion);
     }
 
     async calcularConversion() {
@@ -42,13 +45,13 @@ class Conversion {
             const resp = await fetch(`https://api.apilayer.com/exchangerates_data/convert?to=${this.unidadAConvertir}&from=${this.unidadPorConvertir}&amount=${this.cantidadPorConvertir}`, requestOptions);
             const data = await resp.json();
 
-            console.log(data.result);
             this.resultado = data.result.toFixed(2);
 
             lblResultado.innerText = this.mostrarResultado();
             this.asignarHorario();
         } catch (error) {
             console.log(error);
+            lblResultado = "Error de divisas";
         }
     }
 }
@@ -88,134 +91,131 @@ function generarConversionesRecientes() {
 function mostrarConversionesRecientes() {
     let conversionesRecientesHTML = document.getElementsByClassName("conversion-reciente");
     for (let i = 0; i < conversionesRecientes.length; i++) {
+        let conversionCargada = new Conversion(conversionesRecientes[i].unidadPorConvertir, conversionesRecientes[i].cantidadPorConvertir, conversionesRecientes[i].unidadAConvertir, conversionesRecientes[i].resultado, conversionesRecientes[i].horarioConversion);
         let conversion = `
-            <div class="resultado-conversion">${conversionesRecientes[i].mostrarResultado()}</div>
-            <div class="horario-conversion">${conversionesRecientes[i].horarioConversion}</div>
+            <div class="resultado-conversion">${conversionCargada.mostrarResultado()}</div>
+            <div class="horario-conversion">${conversionCargada.horarioConversion}</div>
         `;
         conversionesRecientesHTML[i].innerHTML = conversion;
     }
 }
 
 function guardarConversion(conversion) {
-    console.log("Conversion guardada:")
-    console.log(conversion);
     conversionesRecientes.unshift(conversion);
     conversionesRecientes.length > 5 && conversionesRecientes.pop();
     localStorage.setItem("ConversionesRecientes", JSON.stringify(conversionesRecientes));
 }
 
-function convertirNumero() {
+async function convertirNumero() {
     let codigoPorConvertir = sctDivisaPorConvertir.value;
     let codigoAConvertir = sctDivisaAConvertir.value;
     let cantidadPorConvertir = document.getElementById("cantidadPorConvertir").value;
 
     if (!isNaN(cantidadPorConvertir) && cantidadPorConvertir != "") {
         const nuevaConversion = new Conversion(codigoPorConvertir, cantidadPorConvertir, codigoAConvertir);
-        nuevaConversion.calcularConversion();
+        await nuevaConversion.calcularConversion();
+        console.log("Despues de calcular: ");
+        console.log(nuevaConversion);
         guardarConversion(nuevaConversion);
         mostrarConversionesRecientes();
+        await iniciarTimeSerie(nuevaConversion);
     } else {
         lblResultado.innerText = "Ingrese un número válido"
     }
 }
 
 
+//TIMESERIES
+async function iniciarTimeSerie(conversion) {
+    const timeSerie = await solicitarDatos(conversion);
+    crearTabla(timeSerie, conversion);
+}
+
+async function solicitarDatos(conversion) {
+    let fechaFinal = DateTime.now();
+    let fechaInicial = fechaFinal;
+    fechaFinal = fechaFinal.toISODate();
+    fechaInicial = fechaInicial.minus({ years: 1 }).toISODate();
+
+    let myHeaders = new Headers();
+    myHeaders.append("apikey", "vsi3J3Nd3h8tLZSnmZSEBHTqnAMR4brU");
+
+    let requestOptions = {
+        method: 'GET',
+        redirect: 'follow',
+        headers: myHeaders
+    };
+
+    try {
+        const resp = await fetch(`https://api.apilayer.com/exchangerates_data/timeseries?start_date=${fechaInicial}&end_date=${fechaFinal}&base=${conversion.unidadPorConvertir}&symbols=${conversion.unidadAConvertir}`, requestOptions);
+        const data = await resp.json();
+        const timeserie = data.rates;
+        return timeserie;
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function crearTabla(datos, conversion) {
+    const labels = Object.keys(datos);
+    valores = obtenerValoresMoneda(datos);
+    let color;
+    if(valores[0] < valores[valores.length-1]){
+        color = 'rgb(0, 153, 0)';
+    }else{
+        color = 'rgb(255, 0, 0)';
+    }
+
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: conversion.unidadAConvertir,
+            backgroundColor: color,
+            borderColor: color,
+            data: valores,
+            pointRadius: 0,
+        }]
+    };
+
+    const config = {
+        type: 'line',
+        data: data,
+        options: {}
+    };
+
+    if (!tablaCreada) {
+        myChart = new Chart(document.getElementById('myChart'), config);
+        tablaCreada = true;
+    }else{
+        myChart.destroy();
+        myChart = new Chart(document.getElementById('myChart'), config);
+    }
+
+}
+
+function obtenerValoresMoneda(datos) {
+    const valores = [];
+    const unidad = Object.entries(datos);
+
+    for (let i = 0; i < Object.values(datos).length; i++) {
+        valor = Object.values(unidad[i][1]);
+        valores.push(valor[0]);
+    }
+
+    return valores;
+}
+
+function revertirDivisas(){
+    let valorAuxiliar = sctDivisaAConvertir.value;
+    sctDivisaAConvertir.value = sctDivisaPorConvertir.value;
+    sctDivisaPorConvertir.value = valorAuxiliar;
+}
+
+
+//EJECUCION
 generarDivisas();
 cargarConversionesRecientes();
 generarConversionesRecientes();
 mostrarConversionesRecientes();
 btnConvertir.addEventListener("click", convertirNumero);
-
-
-
-
-
-
-/* const divisas = [];
-const DateTime = luxon.DateTime;
-let conversionesRecientes;
-let horariosRecientes;
-
-class Divisa {
-    constructor(nombre, abreviatura, simbolo, valorRelativo) {
-        this.nombre = nombre;
-        this.abreviatura = abreviatura;
-        this.simbolo = simbolo;
-        this.valorRelativo = valorRelativo;
-    }
-}
-
-function GenerarDivisas() {
-    divisas.push(new Divisa("Dólar", "USD", "$", 1));
-    divisas.push(new Divisa("Euro", "EUR", "€", 0.98));
-    divisas.push(new Divisa("Libra Esterlina", "GBP", "£", 0.83));
-    divisas.push(new Divisa("Peso Argentino", "ARS", "$", 126.74));
-}
-
-function CargarConversionesRecientes() {
-    conversionesRecientes = JSON.parse(localStorage.getItem("ConversionesRecientes")) || []; //Operador OR
-    horariosRecientes = JSON.parse(localStorage.getItem("HorariosRecientes")) || [];
-}
-
-function GenerarConversionesRecientes() {
-    for (let i = 0; i < 5; i++) {
-        let nuevaConversion = document.createElement("div");
-        nuevaConversion.classList.add("conversion-reciente");
-        document.getElementById("conversiones-recientes").append(nuevaConversion);
-    }
-    MostrarConversionesRecientes();
-}
-
-function MostrarConversionesRecientes() {
-    let conversionesRecientesHTML = document.getElementsByClassName("conversion-reciente");
-    for (let i = 0; i < conversionesRecientes.length; i++) {
-        conversionesRecientesHTML[i].innerHTML = `<div class="resultado-conversion">${conversionesRecientes[i]}</div><div class="horario-conversion">${horariosRecientes[i]}</div>`;
-    }
-}
-
-function CalcularConversion(divisaPorConvertir, valor, divisaAConvertir) {
-    let resultado;
-    resultado = (valor / divisaPorConvertir.valorRelativo) * divisaAConvertir.valorRelativo;
-    return resultado;
-}
-
-function GuardarResultadoActual(resultadoActual) {
-    conversionesRecientes.unshift(resultadoActual);
-}
-
-function GuardarHorarioActual(horarioActual) {
-    let hora = horarioActual.toLocaleString(DateTime.TIME_24_SIMPLE);
-    let fecha = horarioActual.toLocaleString(DateTime.DATE_SHORT);
-
-    horario = `${hora} - ${fecha}`;
-    horariosRecientes.unshift(horario);
-}
-
-function ConvertirNumero() {
-    let cantidadAConvertir = document.getElementById("cantidadAConvertir").value;
-    let divisaPorConvertir = document.getElementById("divisaPorConvertir");
-    let divisaAConvertir = document.getElementById("divisaAConvertir");
-
-    let resultadoConversion;
-    let unidadPorConvertir = divisaPorConvertir.value;
-    let unidadAConvertir = divisaAConvertir.value;
-
-    if (!isNaN(cantidadAConvertir) && cantidadAConvertir != "") {
-        resultadoConversion = CalcularConversion(divisas[divisaPorConvertir.selectedIndex], cantidadAConvertir, divisas[divisaAConvertir.selectedIndex]).toFixed(2);
-        lblResultado.innerText = (`${cantidadAConvertir} ${unidadPorConvertir} = ${resultadoConversion} ${unidadAConvertir}`);
-        GuardarResultadoActual(lblResultado.innerText);
-        GuardarHorarioActual(DateTime.now());
-        conversionesRecientes.length > 5 && conversionesRecientes.pop(); //Operador AND 
-        horariosRecientes.length > 5 && horariosRecientes.pop();
-        MostrarConversionesRecientes();
-        localStorage.setItem("ConversionesRecientes", JSON.stringify(conversionesRecientes));
-        localStorage.setItem("HorariosRecientes", JSON.stringify(horariosRecientes));
-    } else {
-        lblResultado.innerText = "Ingrese un número válido"
-    }
-}
-
-GenerarDivisas();
-CargarConversionesRecientes();
-GenerarConversionesRecientes();
-btnConvertir.addEventListener("click", ConvertirNumero); */
+btnReversa.addEventListener("click", revertirDivisas);

@@ -114,8 +114,6 @@ async function convertirNumero() {
     if (!isNaN(cantidadPorConvertir) && cantidadPorConvertir != "") {
         const nuevaConversion = new Conversion(codigoPorConvertir, cantidadPorConvertir, codigoAConvertir);
         await nuevaConversion.calcularConversion();
-        console.log("Despues de calcular: ");
-        console.log(nuevaConversion);
         guardarConversion(nuevaConversion);
         mostrarConversionesRecientes();
         await iniciarTimeSerie(nuevaConversion);

@@ -59,7 +59,7 @@ class Conversion {
 async function generarDivisas() {
     const monedas = [];
     try {
-        const resp = await fetch("../monedas.json");
+        const resp = await fetch("./monedas.json");
         const data = await resp.json();
         data.sort();
 
